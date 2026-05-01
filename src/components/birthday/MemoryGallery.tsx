@@ -8,7 +8,7 @@ const PHOTOS = [
   {
     id: 1,
     src: "https://drive.google.com/thumbnail?id=1fl-C2k2d-F40elNzMDFod4APDvDOC9od&sz=w1200",
-    caption: "first smile",
+    caption: "first bride look",
   },
   {
     id: 2,
@@ -18,42 +18,42 @@ const PHOTOS = [
   {
     id: 3,
     src: "https://drive.google.com/thumbnail?id=18MAkLskDzbzuFbzBELbjYLdh17TiZKR2&sz=w1200",
-    caption: "your laugh",
+    caption: "your prefectness",
   },
   {
     id: 4,
     src: "https://drive.google.com/thumbnail?id=1kMEJez36zPSNDx5rIuqLrK0MZ9lCvxZ-&sz=w1200",
-    caption: "soft moments",
+    caption: "pretty littel baby",
   },
   {
     id: 5,
     src: "https://drive.google.com/thumbnail?id=1nbUVwgNGElpOmdxjsuescNpo66i4DU67&sz=w1200",
-    caption: "the way you look",
+    caption: "the way you look and your smile",
   },
   {
     id: 6,
     src: "https://drive.google.com/thumbnail?id=10ofeMXNbMb-TsdMJkpep3BtKcU43Dsqh&sz=w1200",
-    caption: "every little thing",
+    caption: "so cute and chubby",
   },
   {
     id: 7,
     src: "https://drive.google.com/thumbnail?id=1rYFD_xBbLrEYolPByI7IG66PlUSwmhT4&sz=w1200",
-    caption: "favorite frame",
+    caption: "your atractiveness",
   },
   {
     id: 8,
     src: "https://drive.google.com/thumbnail?id=1rN3bPD9rR_OB-MzvFYDjmTcrf2uyCKwC&sz=w1200",
-    caption: "you, simply",
+    caption: "you, style",
   },
   {
     id: 9,
     src: "https://drive.google.com/thumbnail?id=1U1mDo3r0zK6kUq-U5M5JhX46R_W6Jy9q&sz=w1200",
-    caption: "magic in motion",
+    caption: "everything about you",
   },
   {
     id: 10,
     src: "https://drive.google.com/thumbnail?id=1X_4aE87JFSooN6R0SkbHXxcnbzidl8iQ&sz=w1200",
-    caption: "forever feeling",
+    caption: "My pretty laxu i love you ",
   },
 ];
 
