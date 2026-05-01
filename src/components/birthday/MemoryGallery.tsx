@@ -4,35 +4,58 @@ import { AmbientOrbs } from "./AmbientOrbs";
 // 🔧 REPLACE these with Google Drive direct image links later.
 // Tip: Convert "https://drive.google.com/file/d/FILE_ID/view"
 // into "https://drive.google.com/uc?export=view&id=FILE_ID"
-const DRIVE_IDS = [
-  "1fl-C2k2d-F40elNzMDFod4APDvDOC9od",
-  "1oGHnsZXkt8QCrn_vY10OuMuPNzcZSRWo",
-  "18MAkLskDzbzuFbzBELbjYLdh17TiZKR2",
-  "1kMEJez36zPSNDx5rIuqLrK0MZ9lCvxZ-",
-  "1nbUVwgNGElpOmdxjsuescNpo66i4DU67",
-  "10ofeMXNbMb-TsdMJkpep3BtKcU43Dsqh",
-  "1rYFD_xBbLrEYolPByI7IG66PlUSwmhT4",
-  "1rN3bPD9rR_OB-MzvFYDjmTcrf2uyCKwC",
-  "1U1mDo3r0zK6kUq-U5M5JhX46R_W6Jy9q",
-  "1X_4aE87JFSooN6R0SkbHXxcnbzidl8iQ",
+const PHOTOS = [
+  {
+    id: 1,
+    src: "https://drive.google.com/uc?export=view&id=1fl-C2k2d-F40elNzMDFod4APDvDOC9od",
+    caption: "first smile",
+  },
+  {
+    id: 2,
+    src: "https://drive.google.com/uc?export=view&id=1oGHnsZXkt8QCrn_vY10OuMuPNzcZSRWo",
+    caption: "golden hour",
+  },
+  {
+    id: 3,
+    src: "https://drive.google.com/uc?export=view&id=18MAkLskDzbzuFbzBELbjYLdh17TiZKR2",
+    caption: "your laugh",
+  },
+  {
+    id: 4,
+    src: "https://drive.google.com/uc?export=view&id=1kMEJez36zPSNDx5rIuqLrK0MZ9lCvxZ-",
+    caption: "soft moments",
+  },
+  {
+    id: 5,
+    src: "https://drive.google.com/uc?export=view&id=1nbUVwgNGElpOmdxjsuescNpo66i4DU67",
+    caption: "the way you look",
+  },
+  {
+    id: 6,
+    src: "https://drive.google.com/uc?export=view&id=10ofeMXNbMb-TsdMJkpep3BtKcU43Dsqh",
+    caption: "every little thing",
+  },
+  {
+    id: 7,
+    src: "https://drive.google.com/uc?export=view&id=1rYFD_xBbLrEYolPByI7IG66PlUSwmhT4",
+    caption: "favorite frame",
+  },
+  {
+    id: 8,
+    src: "https://drive.google.com/uc?export=view&id=1rN3bPD9rR_OB-MzvFYDjmTcrf2uyCKwC",
+    caption: "you, simply",
+  },
+  {
+    id: 9,
+    src: "https://drive.google.com/uc?export=view&id=1U1mDo3r0zK6kUq-U5M5JhX46R_W6Jy9q",
+    caption: "magic in motion",
+  },
+  {
+    id: 10,
+    src: "https://drive.google.com/uc?export=view&id=1X_4aE87JFSooN6R0SkbHXxcnbzidl8iQ",
+    caption: "forever feeling",
+  },
 ];
-
-const PHOTOS = DRIVE_IDS.map((id, i) => ({
-  id: i + 1,
-  src: `https://lh3.googleusercontent.com/d/${id}=w1200`,
-  caption: [
-    "first smile",
-    "golden hour",
-    "your laugh",
-    "soft moments",
-    "the way you look",
-    "every little thing",
-    "favorite frame",
-    "you, simply",
-    "magic in motion",
-    "forever feeling",
-  ][i],
-}));
 
 const variants = ["polaroid", "card", "fullscreen", "card", "polaroid", "fullscreen", "card", "polaroid", "card", "fullscreen"] as const;
 
