@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { AmbientOrbs } from "./AmbientOrbs";
 import { FloatingHearts } from "./FloatingHearts";
 import { ParticleField } from "./ParticleField";
-import heroPhoto from "@/assets/laxuu-hero.jpg";
+import heroImage from "@/assets/file_00000000cac471faaa1ed913e818263f.png"
 
 export const HeroSection = () => {
   return (
