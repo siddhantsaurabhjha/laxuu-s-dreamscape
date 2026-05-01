@@ -7,52 +7,52 @@ import { AmbientOrbs } from "./AmbientOrbs";
 const PHOTOS = [
   {
     id: 1,
-    src: "https://drive.google.com/uc?export=view&id=1fl-C2k2d-F40elNzMDFod4APDvDOC9od",
+    src: "https://drive.google.com/thumbnail?id=1fl-C2k2d-F40elNzMDFod4APDvDOC9od&sz=w1200",
     caption: "first smile",
   },
   {
     id: 2,
-    src: "https://drive.google.com/uc?export=view&id=1oGHnsZXkt8QCrn_vY10OuMuPNzcZSRWo",
+    src: "https://drive.google.com/thumbnail?id=1oGHnsZXkt8QCrn_vY10OuMuPNzcZSRWo&sz=w1200",
     caption: "golden hour",
   },
   {
     id: 3,
-    src: "https://drive.google.com/uc?export=view&id=18MAkLskDzbzuFbzBELbjYLdh17TiZKR2",
+    src: "https://drive.google.com/thumbnail?id=18MAkLskDzbzuFbzBELbjYLdh17TiZKR2&sz=w1200",
     caption: "your laugh",
   },
   {
     id: 4,
-    src: "https://drive.google.com/uc?export=view&id=1kMEJez36zPSNDx5rIuqLrK0MZ9lCvxZ-",
+    src: "https://drive.google.com/thumbnail?id=1kMEJez36zPSNDx5rIuqLrK0MZ9lCvxZ-&sz=w1200",
     caption: "soft moments",
   },
   {
     id: 5,
-    src: "https://drive.google.com/uc?export=view&id=1nbUVwgNGElpOmdxjsuescNpo66i4DU67",
+    src: "https://drive.google.com/thumbnail?id=1nbUVwgNGElpOmdxjsuescNpo66i4DU67&sz=w1200",
     caption: "the way you look",
   },
   {
     id: 6,
-    src: "https://drive.google.com/uc?export=view&id=10ofeMXNbMb-TsdMJkpep3BtKcU43Dsqh",
+    src: "https://drive.google.com/thumbnail?id=10ofeMXNbMb-TsdMJkpep3BtKcU43Dsqh&sz=w1200",
     caption: "every little thing",
   },
   {
     id: 7,
-    src: "https://drive.google.com/uc?export=view&id=1rYFD_xBbLrEYolPByI7IG66PlUSwmhT4",
+    src: "https://drive.google.com/thumbnail?id=1rYFD_xBbLrEYolPByI7IG66PlUSwmhT4&sz=w1200",
     caption: "favorite frame",
   },
   {
     id: 8,
-    src: "https://drive.google.com/uc?export=view&id=1rN3bPD9rR_OB-MzvFYDjmTcrf2uyCKwC",
+    src: "https://drive.google.com/thumbnail?id=1rN3bPD9rR_OB-MzvFYDjmTcrf2uyCKwC&sz=w1200",
     caption: "you, simply",
   },
   {
     id: 9,
-    src: "https://drive.google.com/uc?export=view&id=1U1mDo3r0zK6kUq-U5M5JhX46R_W6Jy9q",
+    src: "https://drive.google.com/thumbnail?id=1U1mDo3r0zK6kUq-U5M5JhX46R_W6Jy9q&sz=w1200",
     caption: "magic in motion",
   },
   {
     id: 10,
-    src: "https://drive.google.com/uc?export=view&id=1X_4aE87JFSooN6R0SkbHXxcnbzidl8iQ",
+    src: "https://drive.google.com/thumbnail?id=1X_4aE87JFSooN6R0SkbHXxcnbzidl8iQ&sz=w1200",
     caption: "forever feeling",
   },
 ];
