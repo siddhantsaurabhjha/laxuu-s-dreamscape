@@ -4,22 +4,22 @@ import { AmbientOrbs } from "./AmbientOrbs";
 // 🔧 REPLACE these with Google Drive direct image links later.
 // Tip: Convert "https://drive.google.com/file/d/FILE_ID/view"
 // into "https://drive.google.com/uc?export=view&id=FILE_ID"
-const PHOTOS = Array.from({ length: 10 }).map((_, i) => ({
+const DRIVE_IDS = [
+  "1fl-C2k2d-F40elNzMDFod4APDvDOC9od",
+  "1oGHnsZXkt8QCrn_vY10OuMuPNzcZSRWo",
+  "18MAkLskDzbzuFbzBELbjYLdh17TiZKR2",
+  "1kMEJez36zPSNDx5rIuqLrK0MZ9lCvxZ-",
+  "1nbUVwgNGElpOmdxjsuescNpo66i4DU67",
+  "10ofeMXNbMb-TsdMJkpep3BtKcU43Dsqh",
+  "1rYFD_xBbLrEYolPByI7IG66PlUSwmhT4",
+  "1rN3bPD9rR_OB-MzvFYDjmTcrf2uyCKwC",
+  "1U1mDo3r0zK6kUq-U5M5JhX46R_W6Jy9q",
+  "1X_4aE87JFSooN6R0SkbHXxcnbzidl8iQ",
+];
+
+const PHOTOS = DRIVE_IDS.map((id, i) => ({
   id: i + 1,
-  src: `https://images.unsplash.com/photo-${
-    [
-      "1529626455594-4ff0802cfb7e",
-      "1521577352947-9bb58764b69a",
-      "1531746020798-e6953c6e8e04",
-      "1494790108377-be9c29b29330",
-      "1488161628813-04466f872be2",
-      "1517423440428-a5a00ad493e8",
-      "1502823403499-6ccfcf4fb453",
-      "1539571696357-5a69c17a67c6",
-      "1524504388940-b1c1722653e1",
-      "1517841905240-472988babdf9",
-    ][i]
-  }?auto=format&fit=crop&w=800&q=80`,
+  src: `https://lh3.googleusercontent.com/d/${id}=w1200`,
   caption: [
     "first smile",
     "golden hour",
