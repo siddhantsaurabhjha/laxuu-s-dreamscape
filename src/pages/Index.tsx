@@ -1,16 +1,29 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { useState } from "react";
+import { useLenis } from "@/hooks/useLenis";
+import { IntroLoader } from "@/components/birthday/IntroLoader";
+import { HeroSection } from "@/components/birthday/HeroSection";
+import { FloatingCompliments } from "@/components/birthday/FloatingCompliments";
+import { MemoryGallery } from "@/components/birthday/MemoryGallery";
+import { WhySpecialSection } from "@/components/birthday/WhySpecialSection";
+import { CinematicScene3D } from "@/components/birthday/CinematicScene3D";
+import { FinalReveal } from "@/components/birthday/FinalReveal";
 
-// IMPORTANT: Fully REPLACE this with your own code
-const PlaceholderIndex = () => {
-  // PLACEHOLDER: Replace this entire return statement with the user's app.
-  // The inline background color is intentionally not part of the design system.
+const Index = () => {
+  const [loaded, setLoaded] = useState(false);
+  useLenis();
+
   return (
-    <div className="flex min-h-screen items-center justify-center" style={{ backgroundColor: '#fcfbf8' }}>
-      <img data-lovable-blank-page-placeholder="REMOVE_THIS" src="/placeholder.svg" alt="Your app will live here!" />
-    </div>
+    <main className="relative w-full bg-background text-foreground overflow-x-hidden">
+      {!loaded && <IntroLoader onComplete={() => setLoaded(true)} />}
+
+      <HeroSection />
+      <FloatingCompliments />
+      <MemoryGallery />
+      <WhySpecialSection />
+      <CinematicScene3D />
+      <FinalReveal />
+    </main>
   );
 };
-
-const Index = PlaceholderIndex;
 
 export default Index;
